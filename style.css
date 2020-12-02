@@ -128,18 +128,6 @@ ul, li, ol{
 	padding: 0px;
 }
 
-.background-video{
-	position: fixed; 
-	right: 0; 
-	bottom: 0;
-	min-width: 100%; 
-	min-height: 100%;
-	width: auto; 
-	height: auto; 
-	z-index: -1000;
-	background-size: cover; 
-}
-
 .navbar-dark .navbar-nav .nav-link{
 	color: #ffffff;
 	letter-spacing: 1px;
@@ -175,9 +163,9 @@ ul, li, ol{
 .main-banner{
 	height: 100%;
     position: relative;
-    padding: 0 50px;
     width: 100%;
     text-align: center;
+    padding:0 25%;
 }
 
 .main-banner::after {
@@ -197,7 +185,7 @@ ul, li, ol{
 	display: table-cell;
 	vertical-align: middle;
 	position: relative;
-	z-index: 1;
+    z-index: 1;
 }
 
 .heading h1{
