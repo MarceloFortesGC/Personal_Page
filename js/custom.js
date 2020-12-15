@@ -6,18 +6,38 @@
     "use strict";
 
 	
-	// Smooth scrolling using jQuery easing
-	  $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
-		if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-		  var target = $(this.hash);
-		  target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-		  if (target.length) {
-			$('html, body').animate({
-			  scrollTop: (target.offset().top - 54)
-			}, 1000, "easeInOutExpo");
-			return false;
-		  }
-		}
+	
+	  $('a.js-scroll-trigger1').click(function() {
+      $('html,body').animate({
+        scrollTop: $("#home").offset().top},
+        'slow');
+	  });
+	
+	
+	  $('a.js-scroll-trigger2').click(function() {
+      $('html,body').animate({
+        scrollTop: $("#about").offset().top},
+        'slow');
+	  });
+	
+	
+	  $('a.js-scroll-trigger3').click(function() {
+      $('html,body').animate({
+        scrollTop: $("#services").offset().top},
+        'slow');
+	  });
+	
+	
+	  $('a.js-scroll-trigger4').click(function() {
+      $('html,body').animate({
+        scrollTop: $("#blog").offset().top},
+        'slow');
+	  });
+	
+	  $('a.js-scroll-trigger5').click(function() {
+      $('html,body').animate({
+        scrollTop: $("#contact").offset().top},
+        'slow');
 	  });
 	
     // Closes responsive menu when a scroll trigger link is clicked
