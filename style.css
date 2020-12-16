@@ -51,48 +51,6 @@ a {
     transition: all .3s ease-in-out;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    letter-spacing: 0;
-    font-weight: normal;
-    position: relative;
-    padding: 0 0 10px 0;
-    font-weight: normal;
-    line-height: 120% !important;
-    color: #333333;
-    margin: 0
-}
-
-h1 {
-    font-size: 24px
-}
-
-h2 {
-    font-size: 22px
-}
-
-h3 {
-    font-size: 18px
-}
-
-h4 {
-    font-size: 16px
-}
-
-h5 {
-    font-size: 14px
-}
-
-h6 {
-    font-size: 13px
-}
-
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-    color: #212121;
-    text-decoration: none!important;
-    opacity: 1
-}
-
-
 a {
     color: #222222;
     text-decoration: none;
@@ -182,13 +140,6 @@ ul, li, ol{
 	vertical-align: middle;
 	position: relative;
     z-index: 1;
-}
-
-.heading h1{
-	color: #ffffff;
-	font-weight: 700;
-	font-size: 62px;
-	text-transform: uppercase;
 }
 
 .heading p{
@@ -984,35 +935,6 @@ hr.invis1 {
 .post-info ul li{
 	display: inline-block;
 	text-align: center;
-}
-
-
-/*------------------------------------------------------------------
-    FEATURES
--------------------------------------------------------------------*/
-
-.customwidget h1 {
-    font-size: 44px;
-    color: #ffffff;
-    padding: 15px 0 25px;
-    margin: 0;
-    line-height: 1 !important;
-    font-weight: 300;
-}
-
-.customwidget ul {
-    padding: 0;
-    display: block;
-    margin-bottom: 30px;
-}
-
-.customwidget li i {
-    margin-right: 5px;
-}
-
-.customwidget li {
-    color: #ffffff;
-    margin-right: 10px;
 }
 
 .image-center img {

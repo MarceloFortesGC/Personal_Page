@@ -1,9 +1,5 @@
-/******************************************
-    Version: 1.0
-/****************************************** */
-
 @media only screen and (min-width: 992px) and (max-width: 1199px) {}
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) {
 	#mainNav {
 		background-color: #333333;
 	}
@@ -17,14 +13,18 @@
 		color: rgba(255,255,255);
 		border-color: rgba(255,255,255);
 	}
+
 	.heading h1{
-		font-size: 28px;
+		color: white;
+		font-weight: 700;
+		text-transform: uppercase;
+		font-size: 45px;
 	}
 	.heading p{
-		font-size: 14px;
+		font-size: 20px;
 	}
 	.cd-headline.clip span{
-		font-size: 20px;
+		font-size: 30px;
 	}
 	.section-title h3{
 		font-size: 28px;
@@ -32,12 +32,7 @@
 	.section-title p{
 		font-size: 14px;
 	}
-	#clouds{
-		margin-top: -35%;
-	}
-	.message-box{
-		margin-bottom: 30px;
-	}
+
 	.filter-button-group button{
 		padding: 12px 27px;
 	}
@@ -66,10 +61,10 @@
 		border-color: rgba(255,255,255);
 	}
 	.heading h1{
-		font-size: 28px;
+		font-size: 40px;
 	}
 	.heading p{
-		font-size: 14px;
+		font-size: 20px;
 	}
 	.cd-headline.clip span{
 		font-size: 20px;
@@ -79,9 +74,6 @@
 	}
 	.section-title p{
 		font-size: 14px;
-	}
-	#clouds{
-		margin-top: -35%;
 	}
 	.message-box{
 		margin-bottom: 30px;
@@ -114,7 +106,10 @@
 		border-color: rgba(255,255,255);
 	}
 	.heading h1{
-		font-size: 28px;
+		color: #ffffff;
+		font-weight: 700;
+		text-transform: uppercase;
+		font-size: 35px;
 	}
 	.heading p{
 		font-size: 14px;
@@ -127,9 +122,6 @@
 	}
 	.section-title p{
 		font-size: 14px;
-	}
-	#clouds{
-		margin-top: -35%;
 	}
 	.message-box{
 		margin-bottom: 30px;
